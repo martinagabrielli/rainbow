@@ -1,0 +1,54 @@
+* {
+    body {
+        .container {
+            #rainbow {
+                background-color: transparent;
+                position: absolute;
+                width: 800px;
+                height: 1200px;
+                left: 50%;
+                top: 50%;
+                margin-left: -400px;
+                margin-top: -200px;
+                display: flex;
+                justify-content: center;
+                align-items: stretch;
+                .rainbow-arc {
+                    background-color: transparent;
+                    display: flex;
+                    flex: 1;
+                    border-radius: 50%;
+                    border: 20px solid transparent;
+                  }
+                  
+                  .red {
+                    border-top-color: tomato;
+                  }
+                  
+                  .orange {
+                    border-top-color: orange;
+                  }
+                  
+                  .yellow {
+                    border-top-color: yellow;
+                  }
+                  
+                  .green {
+                    border-top-color: lawngreen;
+                  }
+                  
+                  .blue {
+                    border-top-color: deepskyblue;
+                  }
+                  
+                  .indigo {
+                    border-top-color: mediumslateblue;
+                  }
+                  
+                  .purple {
+                    border-top-color: mediumorchid;
+                  }
+            }
+        }
+    }
+}

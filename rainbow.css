@@ -1,0 +1,60 @@
+* body .container #rainbow {
+  background-color: transparent;
+  position: absolute;
+  width: 800px;
+  height: 1200px;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+* body .container #rainbow .rainbow-arc {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-radius: 50%;
+  border: 20px solid transparent;
+}
+
+* body .container #rainbow .red {
+  border-top-color: tomato;
+}
+
+* body .container #rainbow .orange {
+  border-top-color: orange;
+}
+
+* body .container #rainbow .yellow {
+  border-top-color: yellow;
+}
+
+* body .container #rainbow .green {
+  border-top-color: lawngreen;
+}
+
+* body .container #rainbow .blue {
+  border-top-color: deepskyblue;
+}
+
+* body .container #rainbow .indigo {
+  border-top-color: mediumslateblue;
+}
+
+* body .container #rainbow .purple {
+  border-top-color: mediumorchid;
+}
+/*# sourceMappingURL=rainbow.css.map */
